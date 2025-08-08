@@ -1,4 +1,4 @@
-package com.user.service.entitys;
+package com.user.service.entities;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;

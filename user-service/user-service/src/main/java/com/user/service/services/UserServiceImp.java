@@ -1,8 +1,7 @@
 package com.user.service.services;
 
-import com.user.service.entitys.User;
-import com.user.service.repositorys.UserRepository;
-import lombok.NoArgsConstructor;
+import com.user.service.entities.User;
+import com.user.service.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

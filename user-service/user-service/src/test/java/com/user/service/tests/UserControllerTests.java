@@ -1,7 +1,7 @@
 package com.user.service.tests;
 
 import com.user.service.controllers.UserController;
-import com.user.service.entitys.User;
+import com.user.service.entities.User;
 import com.user.service.services.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,7 +12,6 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 import java.util.List;
-import java.util.Optional;
 
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
@@ -25,6 +24,7 @@ public class UserControllerTests {
     @Mock
     private UserService userService;
 
+    @Mock
     private UserController userController;
 
     @BeforeEach

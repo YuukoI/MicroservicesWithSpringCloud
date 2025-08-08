@@ -1,7 +1,7 @@
 package com.user.service.tests;
 
-import com.user.service.entitys.User;
-import com.user.service.repositorys.UserRepository;
+import com.user.service.entities.User;
+import com.user.service.repositories.UserRepository;
 import com.user.service.services.UserServiceImp;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

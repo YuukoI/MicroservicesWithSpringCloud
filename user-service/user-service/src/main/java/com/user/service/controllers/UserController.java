@@ -1,6 +1,6 @@
 package com.user.service.controllers;
 
-import com.user.service.entitys.User;
+import com.user.service.entities.User;
 import com.user.service.services.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
