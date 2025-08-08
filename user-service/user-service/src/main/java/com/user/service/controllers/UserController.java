@@ -3,10 +3,7 @@ package com.user.service.controllers;
 import com.user.service.entitys.User;
 import com.user.service.services.UserService;
 import jakarta.validation.Valid;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.Response;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -63,9 +60,6 @@ public class UserController {
         user.setId(userId);
         User updatedUser = userService.saveUser(user);
         return ResponseEntity.ok(updatedUser);
-
     }
-
-
 
 }
