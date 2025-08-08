@@ -13,13 +13,14 @@
         </processorPath>
         <module name="user-service" />
       </profile>
-      <profile name="Annotation profile for car-service" enabled="true">
+      <profile name="Annotation profile for motorbike-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
+        <module name="motorbike-service" />
         <module name="car-service" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="car-service" options="-parameters" />
+      <module name="motorbike-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>
