@@ -1,2 +1,7 @@
-spring.application.name=motorbike-service
-server.port=8083
+spring:
+  application:
+    name: motorbike-service
+  config:
+    import: "configserver:http://localhost:8084"
+server:
+  port: 8083

@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="130cf073-993b-44be-a88e-bc4748ded894" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/main/java/com/car/service/controllers/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/car-service/src/main/java/com/car/service/controllers/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/java/com/motorbike/service/controllers/MotorbikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/java/com/motorbike/service/controllers/MotorbikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/car-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/services/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/services/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +28,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -60,7 +61,7 @@
     "Spring Boot.CarServiceApplication.executor": "Run",
     "Spring Boot.MotorbikeServiceApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Services-Communication",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,7 +70,7 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -95,6 +96,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.service.ConfigServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,7 +147,7 @@
       <updated>1754920169040</updated>
       <workItem from="1754920170634" duration="956000" />
       <workItem from="1754921163437" duration="50000" />
-      <workItem from="1754921226199" duration="3541000" />
+      <workItem from="1754921226199" duration="7037000" />
     </task>
     <servers />
   </component>

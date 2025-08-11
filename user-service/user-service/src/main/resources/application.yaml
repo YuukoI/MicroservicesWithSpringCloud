@@ -1,2 +1,7 @@
-spring.application.name=user-service
-server.port=8081
+spring:
+  application:
+    name: user-service
+  config:
+    import: "configserver:http://localhost:8084"
+server:
+  port: 8081
