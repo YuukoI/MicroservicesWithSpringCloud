@@ -1,13 +1,17 @@
 package com.user.service.controllers;
 
 import com.user.service.entities.User;
+import com.user.service.integration.Car;
+import com.user.service.integration.Motorbike;
 import com.user.service.services.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/user")
@@ -60,6 +64,65 @@ public class UserController {
         user.setId(userId);
         User updatedUser = userService.saveUser(user);
         return ResponseEntity.ok(updatedUser);
+    }
+
+    @GetMapping("/cars/{userId}")
+    public ResponseEntity<List<Car>> findAllCarsByUserId(@PathVariable("userId") Long userId) {
+        User user = userService.findById(userId);
+
+        if(user == null){
+            return ResponseEntity.notFound().build();
+        }
+
+        List<Car> cars = userService.findAllCarsByUserId(userId);
+
+        if (cars.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        }
+
+        return ResponseEntity.ok(cars);
+    }
+
+    @GetMapping("/motorbikes/{userId}")
+    public ResponseEntity<List<Motorbike>> findAllMotorbikesByUserId(@PathVariable("userId") Long userId) {
+        User user = userService.findById(userId);
+
+        if(user == null){
+            return ResponseEntity.notFound().build();
+        }
+
+        List<Motorbike> motorbikes = userService.findAllMotorbikesByUserId(userId);
+
+        if (motorbikes.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        }
+
+        return  ResponseEntity.ok(motorbikes);
+    }
+
+    @PostMapping("/cars/{userId}")
+    public ResponseEntity<Car> saveCar(@PathVariable("userId") Long userId, @RequestBody Car car) {
+        if (userService.findById(userId) == null) {
+            return ResponseEntity.notFound().build();
+        }
+
+        return ResponseEntity.ok(userService.saveCar(userId, car));
+    }
+
+    @PostMapping("/motorbikes/{userId}")
+    public ResponseEntity<Motorbike> saveMotorbike(@PathVariable("userId") Long userId, @RequestBody Motorbike motorbike) {
+        if (userService.findById(userId) == null) {
+            return ResponseEntity.notFound().build();
+        }
+
+        return ResponseEntity.ok(userService.saveMotorbike(userId, motorbike));
+    }
+
+    @GetMapping("/vehicles/{userId}")
+    public ResponseEntity<Map<String, Object>> findAllVehiclesByUserId(@PathVariable("userId") Long userId){
+        Map<String, Object> map = userService.findVehiclesByUserId(userId);
+
+        return ResponseEntity.ok(map);
     }
 
 }

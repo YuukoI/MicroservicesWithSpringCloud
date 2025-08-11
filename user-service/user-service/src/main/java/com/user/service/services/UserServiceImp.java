@@ -1,17 +1,30 @@
 package com.user.service.services;
 
 import com.user.service.entities.User;
+import com.user.service.feignClients.CarFeignClient;
+import com.user.service.feignClients.MotorbikeFeignClient;
+import com.user.service.integration.Car;
+import com.user.service.integration.Motorbike;
 import com.user.service.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service
 @RequiredArgsConstructor
 public class UserServiceImp implements UserService {
 
+    private final RestTemplate restTemplate;
+
     private final UserRepository userRepository;
+
+    private final CarFeignClient carFeignClient;
+
+    private final MotorbikeFeignClient motorbikeFeignClient;
 
     @Override
     public List<User> findAllUsers() {
@@ -31,5 +44,55 @@ public class UserServiceImp implements UserService {
     @Override
     public void deleteUserById(Long id) {
         userRepository.deleteById(id);
+    }
+
+    @Override
+    public List<Car> findAllCarsByUserId(Long userId) {
+        return restTemplate.getForObject("http://localhost:8082/cars/user/" + userId, List.class);
+    }
+
+    @Override
+    public List<Motorbike> findAllMotorbikesByUserId(Long userId) {
+        return restTemplate.getForObject("http://localhost:8083/motorbikes/user/" + userId, List.class);
+    }
+
+    @Override
+    public Car saveCar(Long userId, Car car) {
+        car.setUserId(userId);
+        return carFeignClient.saveCar(car);
+    }
+
+    @Override
+    public Motorbike saveMotorbike(Long userId, Motorbike motorbike) {
+        motorbike.setUserId(userId);
+        return motorbikeFeignClient.saveMotorbike(motorbike);
+    }
+
+    @Override
+    public Map<String, Object> findVehiclesByUserId(Long userId) {
+        Map<String, Object> map = new HashMap<>();
+        User user = userRepository.findById(userId).orElse(null);
+
+        if (user == null) {
+            map.put("error", "User not found");
+        } else {
+            map.put("user", user);
+        }
+
+        List<Car> cars = findAllCarsByUserId(userId);
+        if(cars.isEmpty()){
+            map.put("error", "Cars not found");
+        } else {
+            map.put("cars", cars);
+        }
+
+        List<Motorbike>  motorbikes = findAllMotorbikesByUserId(userId);
+        if(motorbikes.isEmpty()){
+            map.put("error", "Motorbikes not found");
+        } else {
+            map.put("motorbikes", motorbikes);
+        }
+
+        return map;
     }
 }
