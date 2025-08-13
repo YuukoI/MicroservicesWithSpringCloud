@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="130cf073-993b-44be-a88e-bc4748ded894" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-service/car-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/car-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/main/java/com/car/service/CarServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/car-service/src/main/java/com/car/service/CarServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/config-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/config-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/config-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/config-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/motorbike-service/motorbike-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/java/com/motorbike/service/MotorbikeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/java/com/motorbike/service/MotorbikeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/UserServiceApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +53,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.CarServiceApplication.executor": "Run",
     "Spring Boot.ConfigServiceApplication.executor": "Run",
+    "Spring Boot.EurekaServiceApplication.executor": "Run",
     "Spring Boot.MotorbikeServiceApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
     "git-widget-placeholder": "Eureka-Server",
@@ -90,7 +80,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CarServiceApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServiceApplication">
     <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="car-service" />
@@ -163,7 +153,7 @@
       <workItem from="1754921226199" duration="8598000" />
       <workItem from="1754999093847" duration="8000" />
       <workItem from="1755020572642" duration="2000" />
-      <workItem from="1755090104637" duration="1676000" />
+      <workItem from="1755090104637" duration="5556000" />
     </task>
     <servers />
   </component>
