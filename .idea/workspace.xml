@@ -89,7 +89,7 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.car.service.*" />
-          <option name="ENABLED" value="true" />
+          <option name="ENABLED" value="false" />
         </pattern>
       </extension>
       <method v="2">
@@ -121,6 +121,7 @@
       </method>
     </configuration>
     <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.service.UserServiceApplication" />
@@ -170,7 +171,7 @@
       <workItem from="1755020572642" duration="2000" />
       <workItem from="1755090104637" duration="13057000" />
       <workItem from="1755106635499" duration="219000" />
-      <workItem from="1755106862860" duration="969000" />
+      <workItem from="1755106862860" duration="1809000" />
     </task>
     <servers />
   </component>
