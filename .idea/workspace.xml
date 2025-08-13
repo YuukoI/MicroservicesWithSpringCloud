@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="130cf073-993b-44be-a88e-bc4748ded894" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/car-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/motorbike-service/motorbike-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
     "Spring Boot.EurekaServiceApplication.executor": "Run",
     "Spring Boot.MotorbikeServiceApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
-    "git-widget-placeholder": "Eureka-Server",
+    "git-widget-placeholder": "Multiple-Instances",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -80,7 +82,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServiceApplication">
+  <component name="RunManager" selected="Spring Boot.MotorbikeServiceApplication">
     <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="car-service" />
@@ -153,7 +155,7 @@
       <workItem from="1754921226199" duration="8598000" />
       <workItem from="1754999093847" duration="8000" />
       <workItem from="1755020572642" duration="2000" />
-      <workItem from="1755090104637" duration="5556000" />
+      <workItem from="1755090104637" duration="8945000" />
     </task>
     <servers />
   </component>
