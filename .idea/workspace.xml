@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="130cf073-993b-44be-a88e-bc4748ded894" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="130cf073-993b-44be-a88e-bc4748ded894" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,8 +79,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
-    <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.CarServiceApplication">
+    <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="car-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.car.service.CarServiceApplication" />
@@ -168,7 +166,7 @@
       <workItem from="1754921226199" duration="8598000" />
       <workItem from="1754999093847" duration="8000" />
       <workItem from="1755020572642" duration="2000" />
-      <workItem from="1755090104637" duration="11773000" />
+      <workItem from="1755090104637" duration="12055000" />
     </task>
     <servers />
   </component>
