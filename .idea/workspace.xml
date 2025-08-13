@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="130cf073-993b-44be-a88e-bc4748ded894" name="Changes" comment="" />
+    <list default="true" id="130cf073-993b-44be-a88e-bc4748ded894" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,9 +138,9 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
       <item itemvalue="Spring Boot.EurekaServiceApplication" />
       <item itemvalue="Spring Boot.MotorbikeServiceApplication" />
-      <item itemvalue="Spring Boot.UserServiceApplication" />
       <item itemvalue="Spring Boot.CarServiceApplication" />
     </list>
     <recent_temporary>
@@ -169,7 +171,7 @@
       <workItem from="1755020572642" duration="2000" />
       <workItem from="1755090104637" duration="13057000" />
       <workItem from="1755106635499" duration="219000" />
-      <workItem from="1755106862860" duration="3014000" />
+      <workItem from="1755106862860" duration="3374000" />
     </task>
     <servers />
   </component>
