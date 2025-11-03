@@ -14,5 +14,4 @@ public interface CarFeignClient {
 
     @GetMapping("/user/{userId}")
     public List<Car> getCars(@PathVariable("userId") Long userId);
-
 }
