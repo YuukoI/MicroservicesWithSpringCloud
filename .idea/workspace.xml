@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f08c8339-2ab5-45c6-a207-bd626a68cbad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/user/service/feignClients/CarFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/user/service/feignClients/CarFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/user/service/services/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/user/service/services/UserServiceImp.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.gitignore.txt" beforeDir="false" afterPath="$USER_HOME$/Desktop/old microservices/Microservices/.gitignore.txt" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.idea/Microservices.iml" beforeDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.idea/compiler.xml" beforeDir="false" />
@@ -152,7 +150,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CarServiceApplication">
     <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="car-service" />
@@ -236,7 +234,7 @@
       <workItem from="1762174565504" duration="119000" />
       <workItem from="1762174742012" duration="537000" />
       <workItem from="1762175364566" duration="734000" />
-      <workItem from="1762176114849" duration="6569000" />
+      <workItem from="1762176114849" duration="7238000" />
     </task>
     <servers />
   </component>

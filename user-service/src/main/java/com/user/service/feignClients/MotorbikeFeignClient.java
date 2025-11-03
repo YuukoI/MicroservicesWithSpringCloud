@@ -15,7 +15,7 @@ public interface MotorbikeFeignClient {
     @PostMapping("/motorbikes")
     public Motorbike saveMotorbike(Motorbike motorbike);
 
-    @GetMapping("/user/{userId}")
+    @GetMapping("/motorbikes/user/{userId}")
     public List<Motorbike> getMotorbikes(@PathVariable("userId") Long userId);
 
 }
