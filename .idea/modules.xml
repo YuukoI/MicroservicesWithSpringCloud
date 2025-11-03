@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/eureka-service/eureka-service.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/old microservices/Microservices/config-data/config-data.iml" filepath="$USER_HOME$/Desktop/old microservices/Microservices/config-data/config-data.iml" />
     </modules>
   </component>
 </project>

@@ -4,18 +4,92 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="130cf073-993b-44be-a88e-bc4748ded894" name="Changes" comment="" />
+    <list default="true" id="f08c8339-2ab5-45c6-a207-bd626a68cbad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Microservices.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/main/java/com/car/service/CarServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/main/java/com/car/service/controllers/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/main/java/com/car/service/entities/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/main/java/com/car/service/repositories/CarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/main/java/com/car/service/services/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/main/java/com/car/service/services/CarServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/test/java/com/car/service/CarServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/test/java/com/car/service/tests/CarControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/car-service/src/test/java/com/car/service/tests/CarServiceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/config-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/config-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/config-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/config-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/config-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/config-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/config-service/src/main/java/com/config/service/ConfigServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/config-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/config-service/src/test/java/com/config/service/ConfigServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service/src/main/java/com/eureka/service/EurekaServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service/src/test/java/com/eureka/service/EurekaServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/java/com/motorbike/service/MotorbikeServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/java/com/motorbike/service/controllers/MotorbikeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/java/com/motorbike/service/entities/Motorbike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/java/com/motorbike/service/repositories/MotorbikeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/java/com/motorbike/service/services/MotorbikeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/java/com/motorbike/service/services/MotorbikeServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/test/java/com/motorbike/service/MotorbikeServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/test/java/com/motorbike/service/tests/MotorbikeControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/motorbike-service/src/test/java/com/motorbike/service/tests/MotorbikeServiceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/UserServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/config/RestTemplateConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/feignClients/CarFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/feignClients/MotorbikeFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/integration/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/integration/Motorbike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/java/com/user/service/services/UserServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/test/java/com/user/service/UserServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/test/java/com/user/service/tests/UserControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service/src/test/java/com/user/service/tests/UserServiceTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,47 +102,32 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="318yoLgbA0wLaUiuxJQDteAgepK" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="34y8gYR7YWf6J1al6249aqXpX87" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CarServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ConfigServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EurekaServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MotorbikeServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.UserServiceApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.UserServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Multiple-Instances&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Gateway-Service",
+    "last_opened_file_path": "C:/JavaUtilities/Proyectos/Microservices",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -80,24 +139,18 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.UserServiceApplication">
-    <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="car-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.car.service.CarServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.car.service.*" />
-          <option name="ENABLED" value="false" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="config-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.service.ConfigServiceApplication" />
+      <module name="car-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.car.service.CarServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,6 +159,14 @@
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="eureka-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.service.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.service.GatewayServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,7 +180,6 @@
       </method>
     </configuration>
     <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.service.UserServiceApplication" />
@@ -127,25 +187,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="user-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.service.UserServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Spring Boot.ConfigServiceApplication" />
-      <item itemvalue="Spring Boot.UserServiceApplication" />
-      <item itemvalue="Spring Boot.EurekaServiceApplication" />
-      <item itemvalue="Spring Boot.MotorbikeServiceApplication" />
       <item itemvalue="Spring Boot.CarServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
+      <item itemvalue="Spring Boot.MotorbikeServiceApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.CarServiceApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -157,19 +205,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="130cf073-993b-44be-a88e-bc4748ded894" name="Changes" comment="" />
-      <created>1754920169040</created>
+      <changelist id="f08c8339-2ab5-45c6-a207-bd626a68cbad" name="Changes" comment="" />
+      <created>1762174564399</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1754920169040</updated>
-      <workItem from="1754920170634" duration="956000" />
-      <workItem from="1754921163437" duration="50000" />
-      <workItem from="1754921226199" duration="8598000" />
-      <workItem from="1754999093847" duration="8000" />
-      <workItem from="1755020572642" duration="2000" />
-      <workItem from="1755090104637" duration="13057000" />
-      <workItem from="1755106635499" duration="219000" />
-      <workItem from="1755106862860" duration="3674000" />
+      <updated>1762174564399</updated>
+      <workItem from="1762174565504" duration="119000" />
+      <workItem from="1762174742012" duration="537000" />
+      <workItem from="1762175364566" duration="382000" />
     </task>
     <servers />
   </component>
