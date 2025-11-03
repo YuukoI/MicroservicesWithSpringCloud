@@ -1,9 +1,27 @@
 server:
-  port: ${PORT:${SERVER_PORT:0}}
+  port: 8080
 
 spring:
   application:
-    name: user-service
+    name: gateway-service
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: user-service 
+          uri: lb://user-service
+          predicates:
+            - Path=/user/**
+        - id: car-service 
+          uri: lb://car-service
+          predicates:
+            - Path=/car/**
+        - id: motorbike-service 
+          uri: lb://motorbike-service
+          predicates:
+            - Path=/motorbike/**
 
 eureka:
   client:
@@ -12,6 +30,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
   instance:
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    hostname: localhost
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 5
