@@ -4,6 +4,7 @@ import com.user.service.entities.User;
 import com.user.service.integration.Car;
 import com.user.service.integration.Motorbike;
 import com.user.service.services.UserService;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -66,6 +67,7 @@ public class UserController {
         return ResponseEntity.ok(updatedUser);
     }
 
+    @CircuitBreaker(name = "carsCB", fallbackMethod = "fallbackGetCars")
     @GetMapping("/cars/{userId}")
     public ResponseEntity<List<Car>> findAllCarsByUserId(@PathVariable("userId") Long userId) {
         User user = userService.findById(userId);
@@ -83,6 +85,7 @@ public class UserController {
         return ResponseEntity.ok(cars);
     }
 
+    @CircuitBreaker(name = "motorbikesCB", fallbackMethod = "fallbackGetMotorbikes")
     @GetMapping("/motorbikes/{userId}")
     public ResponseEntity<List<Motorbike>> findAllMotorbikesByUserId(@PathVariable("userId") Long userId) {
         User user = userService.findById(userId);
@@ -100,6 +103,7 @@ public class UserController {
         return  ResponseEntity.ok(motorbikes);
     }
 
+    @CircuitBreaker(name = "carsCB", fallbackMethod = "fallbackSaveCar")
     @PostMapping("/cars/{userId}")
     public ResponseEntity<Car> saveCar(@PathVariable("userId") Long userId, @RequestBody Car car) {
         if (userService.findById(userId) == null) {
@@ -109,6 +113,7 @@ public class UserController {
         return ResponseEntity.ok(userService.saveCar(userId, car));
     }
 
+    @CircuitBreaker(name = "motorbikesCB", fallbackMethod = "fallbackSaveMotorbike")
     @PostMapping("/motorbikes/{userId}")
     public ResponseEntity<Motorbike> saveMotorbike(@PathVariable("userId") Long userId, @RequestBody Motorbike motorbike) {
         if (userService.findById(userId) == null) {
@@ -118,11 +123,47 @@ public class UserController {
         return ResponseEntity.ok(userService.saveMotorbike(userId, motorbike));
     }
 
+    @CircuitBreaker(name = "allCB", fallbackMethod = "fallbackGetAll")
     @GetMapping("/vehicles/{userId}")
     public ResponseEntity<Map<String, Object>> findAllVehiclesByUserId(@PathVariable("userId") Long userId){
         Map<String, Object> map = userService.findVehiclesByUserId(userId);
 
         return ResponseEntity.ok(map);
+    }
+
+    private ResponseEntity<?> fallbackGetCar(@PathVariable("userId") Long userId, RuntimeException exception) {
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", "⚠️ Service unavailable, executing fallbackGetCar for userId: " + userId);
+        response.put("error", exception.getMessage());
+        return ResponseEntity.ok(response);
+    }
+
+    private ResponseEntity<?>  fallbackGetMotorbike(@PathVariable("userId") Long userId, RuntimeException exception) {
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", "⚠️ Service unavailable, executing fallbackGetMotorbike for userId: " + userId);
+        response.put("error", exception.getMessage());
+        return ResponseEntity.ok(response);
+    }
+
+    private ResponseEntity<?> fallbackSaveCar(@PathVariable("userId") Long userId, @RequestBody Car car, RuntimeException exception) {
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", "⚠️ Service unavailable, executing fallbackSaveCar for userId: " + userId);
+        response.put("error", exception.getMessage());
+        return ResponseEntity.ok(response);
+    }
+
+    private ResponseEntity<?> fallbackSaveMotorbike(@PathVariable("userId") Long userId, @RequestBody Motorbike motorbike, RuntimeException exception) {
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", "⚠️ Service unavailable, executing fallbackSaveMotorbike for userId: " + userId);
+        response.put("error", exception.getMessage());
+        return ResponseEntity.ok(response);
+    }
+
+    private ResponseEntity<Map<String, Object>> fallbackGetAll(@PathVariable("userId") Long userId, RuntimeException exception) {
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", "⚠️ Service unavailable, executing fallbackGetAll for userId: " + userId);
+        response.put("error", exception.getMessage());
+        return ResponseEntity.ok(response);
     }
 
 }

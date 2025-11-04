@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: Gateway-Service
+          default-label: Circuit-Breaker
           uri: https://github.com/YuukoI/MicroservicesWithSpringCloud
           search-paths: config-data
 server:
