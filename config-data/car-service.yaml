@@ -4,6 +4,7 @@ server:
 spring:
   application:
     name: car-service
+    zipkin: http://localhost:9411
 
 eureka:
   client:

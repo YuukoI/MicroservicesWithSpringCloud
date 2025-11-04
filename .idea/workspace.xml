@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f08c8339-2ab5-45c6-a207-bd626a68cbad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/user/service/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/user/service/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorbike-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/motorbike-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.gitignore.txt" beforeDir="false" afterPath="$USER_HOME$/Desktop/old microservices/Microservices/.gitignore.txt" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.idea/Microservices.iml" beforeDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.idea/compiler.xml" beforeDir="false" />
@@ -127,7 +131,7 @@
     "Spring Boot.GatewayServiceApplication.executor": "Run",
     "Spring Boot.MotorbikeServiceApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
-    "git-widget-placeholder": "Circuit-Breaker",
+    "git-widget-placeholder": "Zipkin-Sleuth",
     "last_opened_file_path": "C:/JavaUtilities/Proyectos/Microservices",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -236,7 +240,7 @@
       <workItem from="1762174742012" duration="537000" />
       <workItem from="1762175364566" duration="734000" />
       <workItem from="1762176114849" duration="8371000" />
-      <workItem from="1762292744334" duration="2160000" />
+      <workItem from="1762292744334" duration="3245000" />
     </task>
     <servers />
   </component>
