@@ -131,14 +131,14 @@ public class UserController {
         return ResponseEntity.ok(map);
     }
 
-    private ResponseEntity<?> fallbackGetCar(@PathVariable("userId") Long userId, RuntimeException exception) {
+    private ResponseEntity<?> fallbackGetCars(@PathVariable("userId") Long userId, RuntimeException exception) {
         Map<String, Object> response = new HashMap<>();
         response.put("message", "⚠️ Service unavailable, executing fallbackGetCar for userId: " + userId);
         response.put("error", exception.getMessage());
         return ResponseEntity.ok(response);
     }
 
-    private ResponseEntity<?>  fallbackGetMotorbike(@PathVariable("userId") Long userId, RuntimeException exception) {
+    private ResponseEntity<?>  fallbackGetMotorbikes(@PathVariable("userId") Long userId, RuntimeException exception) {
         Map<String, Object> response = new HashMap<>();
         response.put("message", "⚠️ Service unavailable, executing fallbackGetMotorbike for userId: " + userId);
         response.put("error", exception.getMessage());
