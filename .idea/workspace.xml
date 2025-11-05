@@ -160,7 +160,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CarServiceApplication">
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
     <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="car-service" />
@@ -246,7 +246,7 @@
       <workItem from="1762175364566" duration="734000" />
       <workItem from="1762176114849" duration="8371000" />
       <workItem from="1762292744334" duration="7546000" />
-      <workItem from="1762352242226" duration="6806000" />
+      <workItem from="1762352242226" duration="7650000" />
     </task>
     <servers />
   </component>
