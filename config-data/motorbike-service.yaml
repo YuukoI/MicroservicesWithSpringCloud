@@ -4,12 +4,11 @@ server:
 spring:
   application:
     name: motorbike-service
-  tracing:
-    sampling:
+  sleuth:
+    sampler:
       probability: 1.0
   zipkin:
-    tracing:
-      endpoint: http://localhost:9411
+    base-url: http://localhost:9411/
 
 eureka:
   client:
@@ -24,8 +23,10 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,metrics
+        include: health,info,metrics,httptrace
   endpoint:
+    httptrace:
+      enabled: true
     health:
       show-details: always
     metrics:
