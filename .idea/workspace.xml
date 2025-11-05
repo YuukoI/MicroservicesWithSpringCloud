@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f08c8339-2ab5-45c6-a207-bd626a68cbad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.gitignore.txt" beforeDir="false" afterPath="$USER_HOME$/Desktop/old microservices/Microservices/.gitignore.txt" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.idea/Microservices.iml" beforeDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.idea/compiler.xml" beforeDir="false" />
@@ -238,7 +236,7 @@
       <workItem from="1762175364566" duration="734000" />
       <workItem from="1762176114849" duration="8371000" />
       <workItem from="1762292744334" duration="7546000" />
-      <workItem from="1762352242226" duration="351000" />
+      <workItem from="1762352242226" duration="1267000" />
     </task>
     <servers />
   </component>
