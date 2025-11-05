@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f08c8339-2ab5-45c6-a207-bd626a68cbad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/user/service/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/user/service/config/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/user/service/feignClients/MotorbikeFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/user/service/feignClients/MotorbikeFeignClient.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.gitignore.txt" beforeDir="false" afterPath="$USER_HOME$/Desktop/old microservices/Microservices/.gitignore.txt" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.idea/Microservices.iml" beforeDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.idea/compiler.xml" beforeDir="false" />
@@ -92,6 +97,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -106,6 +118,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="34y8gYR7YWf6J1al6249aqXpX87" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -235,7 +250,7 @@
       <workItem from="1762175364566" duration="734000" />
       <workItem from="1762176114849" duration="8371000" />
       <workItem from="1762292744334" duration="7546000" />
-      <workItem from="1762352242226" duration="1612000" />
+      <workItem from="1762352242226" duration="4514000" />
     </task>
     <servers />
   </component>
