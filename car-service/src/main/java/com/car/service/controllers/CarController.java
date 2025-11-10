@@ -20,7 +20,7 @@ public class CarController {
     public ResponseEntity<List<Car>> findAllCars() {
         List<Car> cars = carService.findAllCars();
 
-        if(cars.isEmpty()){
+        if (cars.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
 
@@ -30,7 +30,7 @@ public class CarController {
     @GetMapping("/{id}")
     public ResponseEntity<Car> findCarById(@PathVariable Long id) {
         Car car = carService.findCarById(id);
-        if(car == null){
+        if (car == null) {
             return ResponseEntity.notFound().build();
         }
 
@@ -45,7 +45,7 @@ public class CarController {
     @DeleteMapping("/{id}")
     public ResponseEntity<Car> deleteCarById(@PathVariable Long id) {
         Car car = carService.findCarById(id);
-        if(car == null){
+        if (car == null) {
             return ResponseEntity.noContent().build();
         }
         carService.deleteCarById(car.getId());
@@ -54,7 +54,7 @@ public class CarController {
 
     @PutMapping("/{id}")
     public ResponseEntity<Car> updateCar(@Valid @RequestBody Car car, @PathVariable Long id) {
-        if(carService.findCarById(id) == null){
+        if (carService.findCarById(id) == null) {
             return ResponseEntity.notFound().build();
         }
 
@@ -66,7 +66,7 @@ public class CarController {
     @GetMapping("/user/{userId}")
     public ResponseEntity<List<Car>> findAllCarsByUserId(@PathVariable Long userId) {
         List<Car> cars = carService.findByUserId(userId);
-        if(cars.isEmpty()){
+        if (cars.isEmpty()) {
             return ResponseEntity.noContent().build();
         }
 

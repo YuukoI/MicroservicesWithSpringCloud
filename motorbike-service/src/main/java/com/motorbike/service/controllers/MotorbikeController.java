@@ -1,7 +1,6 @@
 package com.motorbike.service.controllers;
 
 import com.motorbike.service.entities.Motorbike;
-import com.motorbike.service.repositories.MotorbikeRepository;
 import com.motorbike.service.services.MotorbikeService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -20,7 +19,7 @@ public class MotorbikeController {
     @GetMapping
     public ResponseEntity<List<Motorbike>> findAllMotorbikes() {
         List<Motorbike> motorbikes = motorbikeService.findAllMotorbikes();
-        if(motorbikes.isEmpty()) {
+        if (motorbikes.isEmpty()) {
             return ResponseEntity.noContent().build();
         }
 
@@ -30,7 +29,7 @@ public class MotorbikeController {
     @GetMapping("/{id}")
     public ResponseEntity<Motorbike> findMotorbike(@PathVariable Long id) {
         Motorbike motorbike = motorbikeService.findMotorbikeById(id);
-        if(motorbike == null) {
+        if (motorbike == null) {
             return ResponseEntity.notFound().build();
         }
 
@@ -45,7 +44,7 @@ public class MotorbikeController {
     @DeleteMapping("/{id}")
     public ResponseEntity<Motorbike> deleteMotorbike(@PathVariable Long id) {
         Motorbike motorbike = motorbikeService.findMotorbikeById(id);
-        if(motorbike == null) {
+        if (motorbike == null) {
             return ResponseEntity.notFound().build();
         }
         motorbikeService.deleteMotorbikeById(id);
@@ -54,7 +53,7 @@ public class MotorbikeController {
 
     @PutMapping("/{id}")
     public ResponseEntity<Motorbike> updateMotorbike(@PathVariable Long id, @Valid @RequestBody Motorbike motorbike) {
-        if(motorbikeService.findMotorbikeById(id) == null) {
+        if (motorbikeService.findMotorbikeById(id) == null) {
             return ResponseEntity.notFound().build();
         }
         motorbike.setId(id);
@@ -65,7 +64,7 @@ public class MotorbikeController {
     @GetMapping("/user/{userId}")
     public ResponseEntity<List<Motorbike>> findMotorbikesByUserId(@PathVariable Long userId) {
         List<Motorbike> motorbikes = motorbikeService.findByUserId(userId);
-        if(motorbikes.isEmpty()) {
+        if (motorbikes.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok().body(motorbikes);

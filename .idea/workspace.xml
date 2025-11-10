@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f08c8339-2ab5-45c6-a207-bd626a68cbad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/src/main/java/com/car/service/config/SamplerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/src/main/java/com/car/service/config/SamplerConfig.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.gitignore.txt" beforeDir="false" afterPath="$USER_HOME$/Desktop/old microservices/Microservices/.gitignore.txt" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.idea/Microservices.iml" beforeDir="false" />
       <change beforePath="$USER_HOME$/Desktop/old microservices/Microservices/.idea/compiler.xml" beforeDir="false" />
@@ -160,7 +161,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MotorbikeServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CarServiceApplication">
     <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="car-service" />
@@ -248,7 +249,7 @@
       <workItem from="1762292744334" duration="7546000" />
       <workItem from="1762352242226" duration="10564000" />
       <workItem from="1762515642437" duration="2144000" />
-      <workItem from="1762779084673" duration="6271000" />
+      <workItem from="1762779084673" duration="8996000" />
     </task>
     <servers />
   </component>

@@ -72,7 +72,7 @@ public class UserController {
     public ResponseEntity<List<Car>> findAllCarsByUserId(@PathVariable("userId") Long userId) {
         User user = userService.findById(userId);
 
-        if(user == null){
+        if (user == null) {
             return ResponseEntity.notFound().build();
         }
 
@@ -90,7 +90,7 @@ public class UserController {
     public ResponseEntity<List<Motorbike>> findAllMotorbikesByUserId(@PathVariable("userId") Long userId) {
         User user = userService.findById(userId);
 
-        if(user == null){
+        if (user == null) {
             return ResponseEntity.notFound().build();
         }
 
@@ -100,7 +100,7 @@ public class UserController {
             return ResponseEntity.notFound().build();
         }
 
-        return  ResponseEntity.ok(motorbikes);
+        return ResponseEntity.ok(motorbikes);
     }
 
     @CircuitBreaker(name = "carsCB", fallbackMethod = "fallbackSaveCar")
@@ -125,7 +125,7 @@ public class UserController {
 
     @CircuitBreaker(name = "allCB", fallbackMethod = "fallbackGetAll")
     @GetMapping("/vehicles/{userId}")
-    public ResponseEntity<Map<String, Object>> findAllVehiclesByUserId(@PathVariable("userId") Long userId){
+    public ResponseEntity<Map<String, Object>> findAllVehiclesByUserId(@PathVariable("userId") Long userId) {
         Map<String, Object> map = userService.findVehiclesByUserId(userId);
 
         return ResponseEntity.ok(map);
@@ -138,7 +138,7 @@ public class UserController {
         return ResponseEntity.ok(response);
     }
 
-    private ResponseEntity<?>  fallbackGetMotorbikes(@PathVariable("userId") Long userId, RuntimeException exception) {
+    private ResponseEntity<?> fallbackGetMotorbikes(@PathVariable("userId") Long userId, RuntimeException exception) {
         Map<String, Object> response = new HashMap<>();
         response.put("message", "⚠️ Service unavailable, executing fallbackGetMotorbike for userId: " + userId);
         response.put("error", exception.getMessage());

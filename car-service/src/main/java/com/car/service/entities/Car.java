@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 public class Car {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @NotBlank(message = "brand is required")

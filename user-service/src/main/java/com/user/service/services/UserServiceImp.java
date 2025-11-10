@@ -8,7 +8,6 @@ import com.user.service.integration.Motorbike;
 import com.user.service.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.HashMap;
 import java.util.List;
@@ -17,8 +16,6 @@ import java.util.Map;
 @Service
 @RequiredArgsConstructor
 public class UserServiceImp implements UserService {
-
-    private final RestTemplate restTemplate;
 
     private final UserRepository userRepository;
 
@@ -80,14 +77,14 @@ public class UserServiceImp implements UserService {
         }
 
         List<Car> cars = findAllCarsByUserId(userId);
-        if(cars.isEmpty()){
+        if (cars.isEmpty()) {
             map.put("error", "Cars not found");
         } else {
             map.put("cars", cars);
         }
 
-        List<Motorbike>  motorbikes = findAllMotorbikesByUserId(userId);
-        if(motorbikes.isEmpty()){
+        List<Motorbike> motorbikes = findAllMotorbikesByUserId(userId);
+        if (motorbikes.isEmpty()) {
             map.put("error", "Motorbikes not found");
         } else {
             map.put("motorbikes", motorbikes);
