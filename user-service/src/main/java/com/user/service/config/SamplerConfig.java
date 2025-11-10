@@ -11,4 +11,3 @@ public class SamplerConfig {
         return Sampler.ALWAYS_SAMPLE;
     }
 }
-

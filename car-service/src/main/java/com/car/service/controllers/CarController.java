@@ -60,7 +60,7 @@ public class CarController {
 
         car.setId(id);
         Car savedCar = carService.saveCar(car);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok().body(savedCar);
     }
 
     @GetMapping("/user/{userId}")
